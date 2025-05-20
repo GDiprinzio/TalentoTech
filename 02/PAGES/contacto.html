@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>La Ñata - Fiambreria & Delicatessen.</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="" alt=""><i class="fa-solid fa-house"></i></div>
+        <nav class="navHeader">
+            <ul class="navMenu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contactos</a></li>
+                <li>
+                    <input type="text">
+                    <button class="btnStyle" type="submit">Buscar</button>
+                </li>
+            </ul>
+        </nav>
+        <div class="carroCompras"><i class="fa-solid fa-basket-shopping"></i></div>
+    </header>
+    <main class="mainContacto">
+        
+         <h2>Contacto</h2>
+            <h3>Formulario de consulta y contacto:</h3>
+            <form class="contactForm" action="https://formspree.io/f/myzelkng" method="post">
+                
+                <div class="nombre caja">
+                    <label for="nombre">Nombre: <input type="text" name="nombre" id="nombre" placeholder="Escribe tu Nombre."></label>
+                </div>    
+                <div class="apellido caja">
+                    <label for="apellido">Apellido: <input type="text" name="apellido" id="apellido" placeholder="Escribe tu Apellido."></label>
+                </div>
+                <div class="email caja">
+                    <label for="email:">E-mail: <input type="email" name="email" id="email" placeholder="Escribe tu e-mail."></label>
+                </div>
+                <div class="mensaje caja">
+                    <label for="mensaje:">Mensaje: <textarea name="mensaje" id="mensaje" rows="5" cols="500" placeholder="Escribe tu mensaje aqui."></textarea></label>
+                </div>
+                <button class="formButton btnStyle" type="submit">Enviar</button>
+            </form>
+
+    </main>
+
+    <footer>
+        <h4>© - Todos los derechos reservados - by Gabriel N. Di Prinzio </h4>
+    </footer>
+</body>
+</html>
