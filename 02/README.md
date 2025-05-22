@@ -44,3 +44,6 @@ Se da extrutura a productos.html, se creas las productCard y se les da un estilo
 
 20-05-2025
 se agregan @MediaQuery para hacer resposive el index.html y el contacto.html
+
+22-05-2025
+Prueba de Git y Github
