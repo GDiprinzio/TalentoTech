@@ -367,12 +367,12 @@ grid-area: mensaje;
                           "div6"; 
     grid-template-columns: 1fr;  
                     
-    grid-template-rows: 100px 620px 450px 380px 450px 150px 450px;                      
+    grid-template-rows: 100px 670px repeat(3, 450px) 200px 450px;                      
   } 
 
   .contactForm {
   margin-top: 15px;
-  width: 500px;
+  width: 450px;
   display: grid;
   
   grid-template-areas:  "nombre" 
