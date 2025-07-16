@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="keywords" content="alimentos, encurtidos, fiambres, quesos, bebidas, ventas">
+    <meta name="description" content="Venta de productos alimentición, venta de Picadas, Venta de Bebidas, Venta de fiambres y Quesos">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <title>La Ñata - Fiambreria & Delicatessen.</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/0c8b810b9d.js" crossorigin="anonymous"></script> 
+ 
+    <title>La Ñata - Fiambreria & Delicatessen. Incio.</title>
+
 </head>
 <body>
-    <header>
-        <div class="logo"><img src="" alt=""><i class="fa-solid fa-house"></i></div>
+    <!-- ============== HEADER ============== -->
+    <header class="header">
         <nav class="navHeader">
+            <a href="#" class="logo navLink">LOGO</a>
+            <button class="navToggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
             <ul class="navMenu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="PAGES/productos.html">Productos</a></li>
-                <li><a href="PAGES/contacto.html">Contactos</a></li>
-                <li>
-                    <input type="text">
-                    <button class="btnStyle" type="submit">Buscar</button>
-                </li>
+                <li class="navMenuItem"><a class="navMenuLink navLink" href="index.html">Inicio</a></li>
+                <li class="navMenuItem"><a class="navMenuLink navLink" href="./pages/products.html">Productos</a></li>
+                <li class="navMenuItem"><a class="navMenuLink navLink" href="./pages/contacto.html">Contactos</a></li>
             </ul>
         </nav>
-        <div class="carroCompras"><i class="fa-solid fa-basket-shopping"></i></div>
     </header>
+    <!-- ============== MAIN ============== -->
     <main class="mainIndex">
         <div class="mainTitle">
             <h1>Bienvenidos a nuestro sitio Web.</h1>
@@ -42,8 +44,8 @@
                 Desde ya, mil gracias por venir.
                 </p>
             </div>
-            <div class="div2"><img class="" src="images/Almacen.png" alt="Almacen"></div>
-            <div class="div3"><img src="images/Tabla.png" alt="Tabla de charcutería"></div>
+            <div class="div2"><img class="" src="./assets/img/Almacen.png" alt="Almacen"></div>
+            <div class="div3"><img src="./assets/img/Tabla.png" alt="Tabla de charcutería"></div>
             <div class="div4  containerText">
                 <h2>Nuestro servicios.</h2>
                 <p>Buscamos ofrecer una selección de productos de primeras marcas nacionales y de pequeños productores locales, destacando su gran calidad y características únicas.
@@ -61,9 +63,16 @@
 
 
     </main>
+    <!-- ============== FOOTER ============== -->
+     <footer class="footer">
+        <ul class="footerSocialMedia">
+            <li class="socialMediaItem"><a href="https://www.instagram.com/" class="socialMediaLink mediaLink icon" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="socialMediaItem"><a href="https://www.facebook.com/" class="socialMediaLink mediaLink icon" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li class="socialMediaItem"><a href="https://web.whatsapp.com/" class="socialMediaLink mediaLink icon" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+        </ul>
+        <p>© - Todos los derechos reservados - by Gabriel N. Di Prinzio </p>
 
-    <footer>
-        <h4>© - Todos los derechos reservados - by Gabriel N. Di Prinzio </h4>
-    </footer>
+     </footer>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

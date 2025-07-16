@@ -50,3 +50,4 @@ Prueba de Git y Github
 
 23-05-2025
 Se modifica los mediaquery de pantalla con un maximo de 600px para el index.html y el contacto.html
+
