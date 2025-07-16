@@ -53,6 +53,3 @@ Se modifica los mediaquery de pantalla con un maximo de 600px para el index.html
 
 10-07-2025
 Se modifican las extruturas de directorios internos, demas se agrega Javascript con el boton para el header para mejorar el responsive 
-
-14-07-2025
-Se trabaja sobre Javascript para agregar productos al Products.html desde un array de productos y se trabaja sobre las funciones del carrito de compras

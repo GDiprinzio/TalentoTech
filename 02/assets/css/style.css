@@ -25,6 +25,7 @@ body {
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
 .navHeader {
@@ -226,8 +227,6 @@ footer {
   flex-direction: column;
   border-radius: 10px;
   overflow: hidden;
-  position: relative;
-  z-index: -1;
   transform: 1s;
   box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.678);
   animation: up-center 0.75s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -254,8 +253,6 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  position: relative;
-  z-index: -1
 }
 
 .infoProduct p {
