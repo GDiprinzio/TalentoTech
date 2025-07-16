@@ -52,4 +52,7 @@ Prueba de Git y Github
 Se modifica los mediaquery de pantalla con un maximo de 600px para el index.html y el contacto.html
 
 10-07-2025
-Se modifican las extruturas de directorios internos, demas se agrega Javascript con el boton para el header para mejorar el responsive 
+Se modifican las extruturas de directorios internos, demás se agrega Javascript con el boton (hamburguer) para el header para mejorar el responsive 
+
+15-07-2025
+Problemas con el CSS, probando corregir una superposión de las productCard el carrito de compras no funcionaba. La solución fue agregar al css del header z-index 1 
